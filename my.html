@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="my.css">
+    <link href="font.css" rel="stylesheet">
+    <link href="https://creatantech.com/demos/codervent/rocker/vertical/assets/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://creatantech.com/demos/codervent/rocker/vertical/assets/css/app.css" rel="stylesheet">
+   </head>
+
+<body>
+    <section class="main">
+        <div class="navigation">
+          <header>
+            <div class="topbar d-flex align-items-center">
+                <nav class="navbar navbar-expand">
+                    
+                    <div class="search-bar flex-grow-1">
+                        <div class="position-relative search-bar-box">
+                            <input type="text" class="form-control search-control" placeholder="Type to search..."> <span class="position-absolute top-50 search-show translate-middle-y"><i class='bx bx-search'></i></span>  
+                        </div>
+                    </div>
+                    <div class="top-menu ms-auto">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item mobile-search-icon">
+                                <a class="nav-link" href="#">   <i class='bx bx-search'></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div >
+                        <a class="d-flex align-items-center nav-link " href="#" role="button"  aria-expanded="false">
+                            <img src="image/ve.png" class="user-img">
+                            <div class="user-info ps-3">
+                                <p class="user-name mb-0">Vetri Velan</p>
+                                <p class="designattion mb-0">Web Designer</p>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </nav>
+            </div>
+        </header>
+        </div>
+        <div class="sidebar-wrapper">
+          <div class="sidebar-header">
+              <div>
+                  <img src="logo1.png" width="140px">
+              </div>
+             
+          </div>
+            
+          
+          <ul class="metismenu" id="menu">
+            
+            
+            <div class="btn-group">
+              <a  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                DashBoard
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <ul>
+                <li>
+                <a class="dropdown-item"> <div class="menu title"> Actionaction                </div></a></li>
+                <li><a class="dropdown-item"><div> Something else here                         </div></a></li>
+            </li>
+          </ul>
+              </div>
+            </div>
+            <div class="btn-group">
+              <a  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Aplication
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <ul>
+                <li>
+                <a class="dropdown-item"> <div class="menu title"> Actionaction                </div></a></li>
+                <li><a class="dropdown-item"><div> Something else here                         </div></a></li>
+            </li>
+          </ul>
+              </div>
+            </div>
+             
+              <li>UI Elements</li>
+              <li>
+                  <a>
+                      
+                      <div>Widgets</div>
+                  </a>
+               </li> 
+ 
+               <div class="btn-group">
+                <a  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 E-commerce
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <ul>
+                  <li>
+                  <a class="dropdown-item"> <div class="menu title"> product                </div></a></li>
+                  <li><a class="dropdown-item"><div>product details                 </div></a></li>
+                  <a class="dropdown-item"> <div class="menu title"> Add new product   </div></a></li>
+                  <li><a class="dropdown-item"><div>order                      </div></a></li><a class="dropdown-item"> <div class="menu title"> Actionaction                </div></a></li>
+                  <li><a class="dropdown-item"><div> cancel                       </div></a></li>
+              
+                </li>
+            </ul>
+                </div>
+              </div>
+
+
+              <li>
+                  <a  >
+                     
+                      <div >Components</div>
+                  </a>
+              
+              </li>
+              <li>
+                  <a >
+                      
+                      <div>Content</div>
+                  </a>
+                 
+              </li>
+              <li>
+                  <a>
+                      <div>Icons</div>
+                  </a>
+                
+              </li>
+              </ul>
+
+
+      </div>
+      
+        <div class="navigat">
+          <div class="page-wrapper" style="margin-top:20px;">
+            <div class="page-content">
+      
+              <div class="row">
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row align-items-center">
+                        <div class="col-lg-3 col-xl-2">
+                          <a href="#" class="btn btn-primary mb-3 mb-lg-0"><i class='bx bxs-plus-square'></i>New Product</a>
+                        </div>
+                        <div class="col-lg-9 col-xl-10">
+                          <form class="float-lg-end">
+                            <div class="row row-cols-lg-2 row-cols-xl-auto g-2">
+                              <div class="col">
+                                <div class="position-relative">
+                                  <input type="text" class="form-control ps-5" placeholder="Search Product..."> <span class="position-absolute top-50 product-show translate-middle-y"><i class="bx bx-search"></i></span>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                                  <button type="button" class="btn btn-white">Sort By</button>
+                                  <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn btn-white dropdown-toggle dropdown-toggle-nocaret px-1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class='bx bx-chevron-down'></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                    </ul>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div class="col">
+                                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                                  <button type="button" class="btn btn-white">Collection Type</button>
+                                  <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn btn-white dropdown-toggle dropdown-toggle-nocaret px-1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class='bx bxs-category'></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                    </ul>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div class="col">
+                                <div class="btn-group" role="group">
+                                  <button type="button" class="btn btn-white">Price Range</button>
+                                  <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn btn-white dropdown-toggle dropdown-toggle-nocaret px-1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class='bx bx-slider'></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="btnGroupDrop1">
+                                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                    </ul>
+                                  </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+        </div>
+
+        
+        <div class="product bg-light" style="margin-left: 5px; margin-top:auto;">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 product-grid">
+            <div class="col">
+              <div class="card" id="open" >
+                <img src="image/01.png" data-toggle="modal" data-target="#exampleModalLong">
+                <div class="">
+                  <div class="position-absolute top-0 end-0 m-3 product-discount"><span class="">-10%</span></div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                  
+                   <p>
+                    <a  data-toggle="collapse" href="#collapseExample">
+                      Show More
+                    </a>
+                    
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <span class="more">
+                    <div class="clearfix">
+                      <p class="mb-0 float-start" id="click1"><strong>134</strong> Sales</p>
+                      <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary" id="fprice">1500₹</span><span id="price">1350₹</span></p>
+                    </div>
+                    <div class="d-flex align-items-center mt-3 fs-6">
+                       
+                      <p class="mb-0 ms-auto">4.2(182)</p>
+                    </div>
+                  </div>
+                </span>
+
+                </div>
+              </div>
+
+            </div>
+            
+
+            <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+              }
+            }
+            </script>
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                 
+                  <div class="modal-body">
+                      <div class="card" id="open">
+                          <img src="image/01.png" width="50%">
+                          <div class="card-body">
+                            <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                             <h3>Descrption </h3><wbr>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsum quisquam fugiat maxime at blanditiis nostrum ea nemo est doloremque necessitatibus placeat laudantium consectetur ipsa maiores itaque ratione nam veniam!</p>
+                            <p>
+                           
+                              
+                            </p>
+                            <div class="collapse" id="collapseExample">
+                              
+                              <div class="clearfix">
+                                <p class="mb-0 float-start" id="click1"><strong>134</strong> Sales</p>
+                                <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary" id="fprice">1500₹</span><span id="price">1350₹</span></p>
+                              </div>
+                              <div class="d-flex align-items-center mt-3 fs-6">
+                                 
+                                <p class="mb-0 ms-auto">4.2(182)</p>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/02.png" data-toggle="modal" data-target="#exampleModalLong2">
+                <div class="">
+                  <div class="position-absolute top-0 end-0 m-3 product-discount"><span class="">-10%</span></div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                  <p>
+                    <a  data-toggle="collapse" href="#collapseExample1"  >
+                      Show More
+                    </a>
+                    
+                  </p>
+                  <div class="collapse" id="collapseExample1">
+                    
+                    <div class="clearfix">
+                      <p class="mb-0 float-start"><strong>134</strong> Sales</p>
+              <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary">900₹</span><span>810₹</span></p>
+            </div>
+            <div class="d-flex align-items-center mt-3 fs-6">
+              
+              <p class="mb-0 ms-auto">4.2(182)</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+             
+            <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+              
+                  <div class="modal-body">
+                      <div class="card" id="open">
+                          <img src="image/02.png" width="50%" data-toggle="modal" data-target="#exampleModalLong2">
+                        
+                          <div class="card-body">
+                            <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                             <h3>Descrption </h3><wbr>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsum quisquam fugiat maxime at blanditiis nostrum ea nemo est doloremque necessitatibus placeat laudantium consectetur ipsa maiores itaque ratione nam veniam!</p>
+                            <p>
+                           
+                              
+                            </p>
+                           
+                            
+                          </div>
+                        </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+             
+          
+            <div class="col">
+              <div class="card">
+                <img src="image/03.png" data-toggle="modal" data-target="#exampleModalLong3">
+                <div class="">
+                  <div class="position-absolute top-0 end-0 m-3 product-discount"><span class="">-10%</span></div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                  <p>
+                    <a  data-toggle="collapse" href="#collapseExample2">
+                      Show More
+                    </a>
+                    
+                  </p>
+                  <div class="collapse" id="collapseExample2">
+                    
+                    <div class="clearfix">
+                      <p class="mb-0 float-start"><strong>240</strong> Sales</p>
+                    <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary">$1499</span><span>$1399</span></p>
+                  </div>
+                  <div class="d-flex align-items-center mt-3 fs-6">
+                  
+                    <p class="mb-0 ms-auto">4.2(182)</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+
+            <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle1" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+              
+                  <div class="modal-body">
+                      <div class="card" id="open">
+                          <img src="image/03.png" width="50%">
+                        
+                          <div class="card-body">
+                            <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                             <h3>Descrption </h3><wbr>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsum quisquam fugiat maxime at blanditiis nostrum ea nemo est doloremque necessitatibus placeat laudantium consectetur ipsa maiores itaque ratione nam veniam!</p>
+                            <p>
+                           
+                              
+                            </p>
+                           
+                            
+                          </div>
+                        </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+             
+          
+
+
+
+
+            <div class="col">
+              <div class="card">
+                <img src="image/04.png" data-toggle="modal" data-target="#exampleModalLong4">
+                <div class="">
+                  <div class="position-absolute top-0 end-0 m-3 product-discount"><span class="">-10%</span></div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+
+
+                  <p>
+                    <a  data-toggle="collapse" href="#collapseExample3">
+                      Show More
+                    </a>
+                    
+                  </p>
+                  <div class="collapse" id="collapseExample3">
+                    
+                    <div class="clearfix">
+                      <p class="mb-0 float-start"><strong>134</strong> Sales</p>
+                      <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary">1999₹</span><span>1799₹</span></p>
+                    </div>
+                    <div class="d-flex align-items-center mt-3 fs-6">  
+                      <p class="mb-0 ms-auto">4.2(182)</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+   
+            <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle1" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+              
+                  <div class="modal-body">
+                      <div class="card" id="open">
+                          <img src="image/04.png" width="50%">
+                        
+                          <div class="card-body">
+                            <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                             <h3>Descrption </h3><wbr>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsum quisquam fugiat maxime at blanditiis nostrum ea nemo est doloremque necessitatibus placeat laudantium consectetur ipsa maiores itaque ratione nam veniam!</p>
+                            <p>
+                           
+                              
+                            </p>
+                           
+                            
+                          </div>
+                        </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+             
+          
+
+
+
+
+
+
+
+
+
+
+            <div class="col">
+              <div class="card">
+                <img src="image/05.png" class="card-img-top" data-toggle="modal" data-target="#exampleModalLong5">
+                <div class="">
+                  <div class="position-absolute top-0 end-0 m-3 product-discount"><span class="">-10%</span></div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+
+
+                  <p>
+                    <a  data-toggle="collapse" href="#collapseExample4">
+                      Show More
+                    </a>
+                    
+                  </p>
+                  <div class="collapse" id="collapseExample4">
+                    
+                    <div class="clearfix">
+                      <p class="mb-0 float-start"><strong>134</strong> Sales</p>
+                      <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary">1199₹</span><span>999₹</span></p>
+                    </div>
+                    <div class="d-flex align-items-center mt-3 fs-6">
+                      
+                      <p class="mb-0 ms-auto">4.2(182)</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+
+            <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle1" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+              
+                  <div class="modal-body">
+                      <div class="card" id="open">
+                          <img src="image/05.png" width="50%">
+                        
+                          <div class="card-body">
+                            <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                             <h3>Descrption </h3><wbr>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsum quisquam fugiat maxime at blanditiis nostrum ea nemo est doloremque necessitatibus placeat laudantium consectetur ipsa maiores itaque ratione nam veniam!</p>
+                            <p>
+                           
+                              
+                            </p>
+                           
+                            
+                          </div>
+                        </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+             
+          
+
+
+
+
+
+
+
+
+
+
+
+            <div class="col">
+              <div class="card">
+                <img src="image/06.png" data-toggle="modal" data-target="#exampleModalLong6">
+                <div class="">
+                  <div class="position-absolute top-0 end-0 m-3 product-discount"><span class="">-10%</span></div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+
+
+                  <p>
+                    <a  data-toggle="collapse" href="#collapseExample5">
+                      Show More
+                    </a>
+                    
+                  </p>
+                  <div class="collapse" id="collapseExample5">
+                    
+                    <div class="clearfix">
+                      <p class="mb-0 float-start"><strong>134</strong> Sales</p>
+                    <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary">1000₹</span><span>$240</span></p>
+                  </div>
+                  <div class="d-flex align-items-center mt-3 fs-6">
+               
+                    <p class="mb-0 ms-auto">4.2(182)</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModalLong6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle1" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+              
+                  <div class="modal-body">
+                      <div class="card" id="open">
+                          <img src="image/06.png" width="50%">
+                        
+                          <div class="card-body">
+                            <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                             <h3>Descrption </h3><wbr>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsum quisquam fugiat maxime at blanditiis nostrum ea nemo est doloremque necessitatibus placeat laudantium consectetur ipsa maiores itaque ratione nam veniam!</p>
+                            <p>
+                           
+                              
+                            </p>
+                           
+                            
+                          </div>
+                        </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+             
+          
+
+
+
+
+            <div class="col">
+              <div class="card">
+                <img src="image/07.png" class="card-img-top" data-toggle="modal" data-target="#exampleModalLong7">
+                <div class="">
+                  <div class="position-absolute top-0 end-0 m-3 product-discount"><span class="">-10%</span></div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+
+                  <p>
+                    <a  data-toggle="collapse" href="#collapseExample6">
+                      Show More
+                    </a>
+                    
+                  </p>
+                  <div class="collapse" id="collapseExample6">
+                    
+                    <div class="clearfix">
+                      <p class="mb-0 float-start"><strong>134</strong> Sales</p>
+                      <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary">3500₹</span><span>3200₹</span></p>
+                      </div>
+                    <div class="d-flex align-items-center mt-3 fs-6">
+                     
+                      <p class="mb-0 ms-auto">4.2(182)</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+                
+            <div class="modal fade" id="exampleModalLong7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+              
+                  <div class="modal-body">
+                      <div class="card" id="open">
+                          <img src="image/07.png" width="50%">
+                        
+                          <div class="card-body">
+                            <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+                             <h3>Descrption </h3><wbr>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsum quisquam fugiat maxime at blanditiis nostrum ea nemo est doloremque necessitatibus placeat laudantium consectetur ipsa maiores itaque ratione nam veniam!</p>
+                            <p>
+                           
+                              
+                            </p>
+                           
+                            
+                          </div>
+                        </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+             
+          
+
+
+
+
+
+
+
+
+
+
+            <div class="col">
+              <div class="card">
+                <img src="image/08.png" class="card-img-top" data-toggle="modal" data-target="#exampleModalLong8">
+                <div class="">
+                  <div class="position-absolute top-0 end-0 m-3 product-discount"><span class="">-10%</span></div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title cursor-pointer">Nest Shaped Chair</h6>
+
+
+                  <p>
+                    <a  data-toggle="collapse" href="#collapseExample7">
+                      Show More
+                    </a>
+                    
+                  </p>
+                  <div class="collapse" id="collapseExample7">
+                    
+                    <div class="clearfix">
+                      <p class="mb-0 float-start"><strong>578</strong> Sales</p>
+                    <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary">350₹</span><span>240₹</span></p>
+                  </div>
+                  <div class="d-flex align-items-center mt-3 fs-6">
+                   
+                    <p class="mb-0 ms-auto">4.2(182)</p>
+                    </div>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade" id="exampleModalLong8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle1" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+              
+                  <div class="modal-body">
+                      <div class="card" id="open">
+                          <img src="image/08.png" width="50%" >
+                        
+                          <div class="card-body">
+                            <h2 class="card-title cursor-pointer">Nest Shaped Chair</h2>
+                             <h4>Descrption </h4><wbr>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, ipsum quisquam fugiat maxime at blanditiis nostrum ea nemo est doloremque necessitatibus placeat laudantium consectetur ipsa maiores itaque ratione nam veniam!</p>
+                            <p>
+                           
+                              
+                            </p>
+                           
+                            
+                          </div>
+                        </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+             
+          
+ 
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+           
+          </div>
+        </div>
+      </div>   
+        </div> 
+       
+        <footer class="page-footer">
+          <p class="mb-0">Copyright © 2021. All right reserved.</p>
+        </footer>
+    </section>
+   
+    <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

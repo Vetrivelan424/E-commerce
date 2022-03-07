@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	
+}
+
+.navigation input{
+    margin: 10px;
+   
+} 
+.sidebar{
+    position:absolute;
+    display: inline-block;
+    width: 20%;
+    height: 700px;
+    background-color:green;
+    margin-top: 0;
+    display: inline-block;
+}
+.navigation{
+   width: 80%;
+   margin-left: 20%;
+   height: 50px;
+   position: relative;
+   
+   
+   background-color:blue ;
+}
+.navigation2{
+    
+    width: 80%;
+    
+    margin-top: 30px;
+    margin-left:265px;
+    margin-right: 20px;
+    
+   
+    height: 50px;
+    position: absolute;
+    
+    
+    background-color:white ;
+}
+.product{
+
+    margin-top: 100px;
+    margin-left:20%;
+   
+    height: 600px;
+    width: 80%;
+    background-color: black;
+    position: absolute;
+}
+.product1{
+     width: 190px;
+      height: 280px;
+    margin:5px;
+    display: inline-block;
+    background-color: grey;
+}
+.product2{
+    width: 190px;
+    height: 280px;
+  margin:2.5px;
+  display: inline-block;
+  background-color: grey;
+
+    
+}
+.product3{
+    width: 190px;
+    height: 280px;
+  margin:2.5px;
+  display: inline-block;
+  background-color: grey;
+
+    
+}
+.product4{
+    width: 190px;
+    height: 280px;
+  margin:2.5px;
+  display: inline-block;
+  background-color: grey;
+
+    
+}
+.product5{
+    width: 190px;
+    height: 280px;
+  margin:2.5px;
+  display: inline-block;
+  background-color: grey;
+
+    
+}
+.product6{
+    width: 190px;
+    height: 280px;
+  margin:5px;
+  display: inline-block;
+  background-color: grey;
+
+    
+}
+.col img{
+  padding:10px;
+}
+.product7{
+    width: 190px;
+    height: 280px;
+  margin:2.5px;
+  display: inline-block;
+  background-color: grey;
+
+    
+}
+.product8{
+    width: 190px;
+    height: 280px;
+  margin:2.5px;
+  display: inline-block;
+  background-color: grey;
+
+    
+}
+.product9{
+    width: 190px;
+    height: 280px;
+  margin:2.5px;
+  display: inline-block;
+  background-color: grey;
+
+    
+}
+.product10{
+    width: 190px;
+    height: 280px;
+  margin:2.5px;
+  display: inline-block;
+  background-color: grey;
+
+    
+}
